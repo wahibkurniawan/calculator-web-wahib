@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Challenges Week 2 Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- container -->
+  <main class="container">
+    <!-- calculator -->
+    <div class="calculator">
+      <p><img id="icon" src="./assets/c.svg" />alculator</p>
+      <div class="lastResult" id="tampilan2"></div>
+      <div class="newResult" id="tampilan1">0</div>
+      <div class="buttons">
+        <button class="btn operator" id="clear">AC</button>
+        <button class="btn operator" data-value="/">/</button>
+        <button class="btn operator" data-value="*">*</button>
+        <button class="btn operator" id="del"><img src="./assets/delete.svg" /></button>
+        <button class="btn number" data-value="7">7</button>
+        <button class="btn number" data-value="8">8</button>
+        <button class="btn number" data-value="9">9</button>
+        <button class="btn operator" id="minus" data-value="-">-</button>
+        <button class="btn number" data-value="4">4</button>
+        <button class="btn number" data-value="5">5</button>
+        <button class="btn number" data-value="6">6</button>
+        <button class="btn operator" data-value="+">+</button>
+        <button class="btn number" data-value="1">1</button>
+        <button class="btn number" data-value="2">2</button>
+        <button class="btn number" data-value="3">3</button>
+        <button class="btn operator" id="titik" data-value=".">.</button>
+        <button class="btn number" id="nol" data-value="0">0</button>
+        <button class="btn operator" data-value="²" id="pangkat">x²</button>
+        <button class="btn operator" id="samadengan">=</button>
+      </div>
+    </div>
+  </main>
+  <script src="./intro.js"></script>
+</body>
+</html>
